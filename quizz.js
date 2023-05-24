@@ -52,6 +52,7 @@ function loadQuestion() {
     explanationElement.style.display = "none";
     trueBtn.classList.remove("correct", "incorrect");
     falseBtn.classList.remove("correct", "incorrect");
+    nextBtn.disabled = true;
 }
 
 function checkAnswer(isTrue) {
