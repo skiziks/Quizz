@@ -1,0 +1,25 @@
+#quiz-container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #options button {
+    margin: 10px;
+    padding: 10px 20px;
+  }
+  
+  #explanation {
+    display: none;
+    margin: 20px 0;
+    font-style: italic;
+  }
+  
+  .correct {
+    background-color: green;
+  }
+  
+  .incorrect {
+    background-color: red;
+  }
+  
